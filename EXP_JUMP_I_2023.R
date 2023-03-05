@@ -22,6 +22,7 @@
 # Normalizacion y homogenizacion de variables
 # Exportaci?n ASCII"
 # //////////////////////////////////////////////////////////////////////////////////
+
 # Workspace is cleared
 rm(list = ls())
 
@@ -29,7 +30,7 @@ rm(list = ls())
 setwd("C:/DATOS/R_ITC/R_LABHYD/EXP_JUMP")
 
 # CRAN libraries are loaded
-require(Agreement)
+# require(Agreement)
 require(DescTools)
 require(effects)
 require(ggplot2)
